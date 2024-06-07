@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Card } from './card'
+import { Anchor } from './anchor'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -30,6 +31,11 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Anchor asChild>
+        <a href="https://vitejs.dev" target="_blank">
+          Vite Docs
+        </a>
+      </Anchor>
     </>
   )
 }
